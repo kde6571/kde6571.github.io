@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+	<head>
+		<title></title>
+		<meta charst="UTF-8">
+		<link rel="stylesheet" href="src/style.css">
+	</head>
+	<body>
+		<main>
+			<h1 id="greeting" class="hidden">HI! WELCOME!</h1>
+			<input type="submit" id="signOut" class="hidden" value="SIGN OUT"></input>
+			
+			<form id="sign" class="hidden">
+				<input type="text"></input>
+				<input type="submit" value="SIGN IN"></input>
+			</form>
+			
+			<h2 class="clock"></h2>
+			
+			<form id="todoListForm">
+				<input id="todoInput" type="text" placeholder="TODO" required></input>
+			</form>
+			
+			<div id="todoListDiv">
+				<ul id="todoUl">
+				</ul>
+			</div>
+			
+			<div id="weather">
+			</div>
+		</main>
+		
+		<script src="src/randomBackgroundImages.js"></script>
+		<script src="src/account.js"></script>
+		<script src="src/clock.js"></script>
+		<script src="src/weather.js"></script>
+		<script src="src/todoList.js"></script>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+.hidden
+{
+	display: none;
+}
+
+body
+{
+	text-align:center;
+    background-repeat : no-repeat;
+    background-size : cover;
+	padding:50px;
+	margin:auto;
+}
+
+main
+{
+	background-color:rgba(128, 128, 128 , 0.75);
+	padding:50px;
+	margin:auto;
+	color:white;
+	border-radius:50px;
+}
+
+ul
+{
+   list-style:none;
+   padding-left:0px;
+}
+
+#todoListDiv
+{
+	text-align:left;
+}
+
+span
+{
+	margin: auto;
+	padding-right:25px;
+}
+
+button
+{
+	float:right;
+}
+
+li
+{
+	margin:auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom:5px;
+	padding-top:5px;
+	background-color:lightblue;
+	margin : 5px;
+	border-radius: 25px;
+	color:black;
+}
